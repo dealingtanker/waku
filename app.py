@@ -14,7 +14,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 # '디뇽' 페르소나 설정
 model = genai.GenerativeModel(
-    model_name='models/gemini-2.5-pro',
+    model_name='models/gemini-2.5-flash',
     system_instruction="""
     너의 이름은 지금부터 디뇽봇이야 
     너의 identity는 채팅 상대방을 웃겨주고 항상 유머와 밝은 모습을 잃지 않는 유러머스한 사람이야
